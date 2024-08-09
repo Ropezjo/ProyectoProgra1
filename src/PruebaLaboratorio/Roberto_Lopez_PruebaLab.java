@@ -45,7 +45,7 @@ public class Roberto_Lopez_PruebaLab {
             }
             if (opcion == 2) {
                  
-                    System.out.println("Ingrese un numero");
+                    System.out.println("Ingrese un numero: ");
                     int numero = lea.nextInt();
 
                     
@@ -89,7 +89,7 @@ public class Roberto_Lopez_PruebaLab {
                     }else if (opcion==4){
                         
                     Votaciones++;
-                System.out.print("Ingrese el número de votantes: ");
+                System.out.print("Ingrese el numero de votantes: ");
                 int numeroVotantes = lea.nextInt();
                 lea.nextLine();
                 int votosAzul = 0, votosRojo = 0, votosNegro = 0, votosAmarillo = 0, votosNulos = 0;
@@ -113,7 +113,7 @@ public class Roberto_Lopez_PruebaLab {
                             votoValido = true;
                         } else {
                             votosNulos++;
-                            System.out.println("Error: Voto no válido. Por favor, ingrese un voto válido.");
+                            System.out.println("Error: Voto no valido. Por favor, ingrese un voto valido.");
                         }
                     }
                 }
